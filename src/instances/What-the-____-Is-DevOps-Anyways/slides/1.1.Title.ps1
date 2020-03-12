@@ -25,7 +25,7 @@ $SlideTitle = "
                                               |_|                             |___/               |___/
 
 
-        A Presentation on DevOps, and why you should care
+        A Presentation on DevOps, and Why You Should Care
 
         By Kevin Cefalu | Netchex DevOps Senior Engineer & Team Lead
 ";
