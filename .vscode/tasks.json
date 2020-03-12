@@ -1,0 +1,90 @@
+
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes. For
+// more information, visit: http://bit.ly/2Pa3aSZ
+
+{
+    "version": "2.0.0",
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "powershell.exe",
+                "args": [
+                    "-NoProfile",
+                    "-ExecutionPolicy",
+                    "Bypass",
+                    "-Command"
+                ]
+            }
+        }
+    },
+    "linux": {
+        "options": {
+            "shell": {
+                "executable": "/usr/bin/pwsh",
+                "args": [
+                    "-NoProfile",
+                    "-Command"
+                ]
+            }
+        }
+    },
+    "osx": {
+        "options": {
+            "shell": {
+                "executable": "/usr/local/bin/pwsh",
+                "args": [
+                    "-NoProfile",
+                    "-Command"
+                ]
+            }
+        }
+    },
+    "tasks": [
+        // {
+        //     "label": "Clean",
+        //     "type": "shell",
+        //     "command": "${cwd}/build.ps1 -Task Clean"
+        // },
+        // {
+        //     "label": "Test",
+        //     "type": "shell",
+        //     "command": "${cwd}/build.ps1 -Task Test",
+        //     "group": {
+        //         "kind": "test",
+        //         "isDefault": true
+        //     },
+        //     "problemMatcher": "$pester"
+        // },
+        // {
+        //     "label": "Analyze",
+        //     "type": "shell",
+        //     "command": "${cwd}/build.ps1 -Task Analyze"
+        // },
+        // {
+        //     "label": "Pester",
+        //     "type": "shell",
+        //     "command": "${cwd}/build.ps1 -Task Pester",
+        //     "problemMatcher": "$pester"
+        // },
+        // {
+        //     "label": "Build",
+        //     "type": "shell",
+        //     "command": "${cwd}/build.ps1 -Task Build",
+        //     "group": {
+        //         "kind": "build",
+        //         "isDefault": true
+        //     }
+        // },
+        // {
+        //     "label": "Import",
+        //     "type": "shell",
+        //     "command": "${cwd}/build.ps1 -Task Import"
+        // },
+        // {
+        //     "label": "Publish",
+        //     "type": "shell",
+        //     "command": "${cwd}/build.ps1 -Task Publish"
+        // }
+    ]
+}

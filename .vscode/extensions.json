@@ -1,0 +1,39 @@
+// See http://bit.ly/2pMzb8U to learn about workspace
+// recommendations. Extension identifier format:
+// ${publisher}.${name}. Example: vscode.csharp
+
+{
+    // List of extensions which should be recommended for users
+    // of this workspace.
+    "recommendations": [
+        "DavidAnson.vscode-markdownlint",
+        "ms-vscode.powershell",
+        "yzhang.markdown-all-in-one",
+        "ms-azure-devops.azure-pipelines",
+        "ms-vsts.team",
+        "aaron-bond.better-comments",
+        "shuworks.vscode-table-formatter",
+        "alefragnani.Bookmarks",
+        "EditorConfig.EditorConfig",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "eriklynd.json-tools",
+        "zhoufeng.json-helper",
+        "christian-kohler.path-intellisense",
+        "plievone.vscode-template-literal-editor",
+        "stkb.rewrap",
+        "Tyriar.sort-lines",
+        "richie5um2.vscode-sort-json",
+        "qcz.text-power-tools",
+        "Gruntfuggly.todo-tree",
+        "BriteSnow.vscode-toggle-quotes",
+        "shardulm94.trailing-spaces",
+        "tomoki1207.vscode-input-sequence",
+        "DotJoshJohnson.xml",
+        "redhat.vscode-yaml"
+    ],
+
+    // List of extensions recommended by VS Code that should not
+    // be recommended for users of this workspace.
+    "unwantedRecommendations": []
+}

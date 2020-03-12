@@ -1,0 +1,144 @@
+
+// Use IntelliSense to learn about possible attributes. Hover
+// to view descriptions of existing attributes. For more
+// information, visit: http://bit.ly/35QWnUl
+
+{
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.tabSize": 4
+    },
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "better-comments.tags": [
+        {
+            "backgroundColor": "transparent",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "tag": "!"
+        },
+        {
+            "backgroundColor": "transparent",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "tag": "important"
+        },
+        {
+            "backgroundColor": "transparent",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "tag": "?"
+        },
+        {
+            "backgroundColor": "transparent",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "tag": "question"
+        },
+        {
+            "backgroundColor": "transparent",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "tag": "todo"
+        }
+    ],
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.autoIndent": "full",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        64,
+        80,
+        128,
+        152
+    ],
+    "editor.suggestSelection": "first",
+    "editor.trimAutoWhitespace": true,
+    "editor.wrappingIndent": "deepIndent",
+    "emmet.excludeLanguages": [],
+    "emmet.includeLanguages": {
+        "markdown": "html"
+    },
+    "files.associations": {
+        "*.ps1xml": "xml",
+        "*.psd1": "powershell"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/desktop.ini": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "markdown.extension.syntax.decorations": true,
+    "markdown.extension.toc.levels": "2..6",
+    "markdown.extension.toc.omittedFromToc": {
+        "*.md": [
+            "## Table of Contents"
+        ]
+    },
+    "markdown.extension.toc.orderedList": true,
+    "markdownlint.config": {
+        "default": true,
+        "MD007": {
+            "indent": 4
+        },
+        "MD013": false,
+        "MD024": false,
+        "MD033": false
+    },
+    "powershell.codeFolding.showLastLine": true,
+    "powershell.codeFormatting.alignPropertyValuePairs": false,
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.ignoreOneLineBlock": false,
+    "powershell.codeFormatting.newLineAfterCloseBrace": true,
+    "powershell.codeFormatting.newLineAfterOpenBrace": true,
+    "powershell.codeFormatting.openBraceOnSameLine": false,
+    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
+    "powershell.codeFormatting.preset": "Custom",
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.codeFormatting.whitespaceAfterSeparator": true,
+    "powershell.codeFormatting.whitespaceAroundOperator": true,
+    "powershell.codeFormatting.WhitespaceAroundPipe": true,
+    "powershell.codeFormatting.whitespaceBeforeOpenBrace": true,
+    "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
+    "powershell.codeFormatting.WhitespaceInsideBrace": true,
+    "powershell.enableProfileLoading": false,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.scriptAnalysis.enable": true,
+    "powershell.scriptAnalysis.settingsPath": ".\\.script-analyzer\\script-analyzer.settings.psd1",
+    "powershell.startAutomatically": true,
+    "rewrap.reformat": true,
+    "rewrap.wrappingColumn": 80,
+    "templateLiteralEditor.regexes": {
+        "csharp": "(@\")([^\"]*(?:\"\"[^\"]*)*)(\")",
+        "html": "(`)([\\s\\S]*?)(`)",
+        "javascriptreact": "(`)([\\s\\S]*?)(`)",
+        "markdown": "(```.*)([\\s\\S]*?)(```)",
+        "powershell": "(@*\")([\\s\\S]*?)(\"@*)",
+        "python": "(\"\"\")([\\s\\S]*?)(\"\"\")",
+        "razor": "(@\")([\\s\\S]*?)(\")",
+        "ruby": "(<<EOF-?)([\\s\\S]*?)(EOF)",
+        "typescriptreact": "(`)([\\s\\S]*?)(`)",
+        "vb": "(\")([^\"]*(?:\"\"[^\"]*)*)(\")"
+    },
+    "terminal.integrated.scrollback": 9999,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "todo-tree.tree.showScanModeButton": false,
+    "trailing-spaces.trimOnSave": true,
+    "xmlTools.xmlFormatterImplementation": "v2"
+}
