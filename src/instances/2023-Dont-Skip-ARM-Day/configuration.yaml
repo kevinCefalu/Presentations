@@ -1,0 +1,79 @@
+
+GlobalPresentationSettings:
+
+  StartingText: Press any key to start the presentation
+  StartingTextTopPadding: 18
+
+  SelectedSlideTitleColor: Green
+
+  MasterLayoutRatios:
+    Navigation: 1
+    SlideList: 10
+    SlideProgress: 2
+    Content: 4
+
+  SlideProgress:
+    Width: 100
+    LabelText: "[green]Slide Progress[/]"
+    LabelJustification: Left
+    BarColor: Green
+
+Slides:
+  - Title: Don't Skip ARM Day
+    Content:
+      - !FigletBlock
+        Justification: Center
+        Color: Green
+        Padding:
+          Horizontal: 16
+          Vertical: 8
+        LayoutRatio: 2
+      - !MarkupBlock
+        Justification: Center
+        Padding:
+          Horizontal: 16
+          Vertical: 2
+        LayoutRatio: 1
+        Content: "Your [bold slowblink]Bicep[/] Will Thank You"
+      - !MarkupBlock
+        Justification: Right
+        Padding:
+          Horizontal: 16
+          Vertical: 4
+        LayoutRatio: 1
+        Content: |
+          by Kevin Cefalu
+          DevOps Engineer III, Netchex
+          kevin.cefalu@outlook.com
+          discord: PsiBit#5498
+
+  - Title: ARM vs Bicep
+    Content:
+      - !FigletBlock
+        Justification: Center
+        Color: Green
+        Padding:
+          Horizontal: 16
+          Vertical: 8
+        LayoutRatio: 1
+
+  - Title: Questions?
+    Content:
+      - !FigletBlock
+        Justification: Center
+        Color: Green
+        Padding:
+          Horizontal: 16
+          Vertical: 8
+        LayoutRatio: 1
+      - !MarkupBlock
+        Justification: Right
+        Padding:
+          Horizontal: 16
+          Vertical: 4
+        LayoutRatio: 1
+        Content: |
+          Kevin Cefalu
+          DevOps Engineer III, Netchex
+          kevin.cefalu@outlook.com
+          Discord: PsiBit#5498
