@@ -8,8 +8,9 @@ Source for my [2023 PowerShell + DevOps Global Summit](https://powershellsummit.
 ## Demos
 
 1. Git Submodule for [Azure/ResourceModules](https://github.com/azure/resourcemodules)
-2. Key Vault Access Policies
-3. Create Key Vault Self-Signed Certificate using `Microsoft.Resources/deploymentScripts` and PowerShell
-4. Advanced Looping to create multiple Azure Functions
-5. Full Template demo
-    1. Demonstrate transpiling to ARM template
+2. Example Pipeline in Azure DevOps
+3. Key Vault Access Policies
+4. Create Key Vault Self-Signed Certificate using `Microsoft.Resources/deploymentScripts` and PowerShell
+5. Advanced Looping to create multiple Azure Functions
+6. Full Template demo
+    1. Demonstrate transpilation to ARM template

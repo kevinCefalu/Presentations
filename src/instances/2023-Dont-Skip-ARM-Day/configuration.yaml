@@ -19,30 +19,30 @@ GlobalPresentationSettings:
     BarColor: Green
 
 Slides:
-  - Title: Don't Skip ARM Day
+  - Title: DON'T SKIP ARM DAY
     Content:
       - !FigletBlock
         Justification: Center
         Color: Green
         Padding:
           Horizontal: 16
-          Vertical: 8
-        LayoutRatio: 2
+          Vertical: 7
+        LayoutRatio: 3
       - !MarkupBlock
         Justification: Center
         Padding:
           Horizontal: 16
-          Vertical: 2
+          Vertical: 1
         LayoutRatio: 1
-        Content: "Your [bold slowblink]Bicep[/] Will Thank You"
+        Content: "Your [bold slowblink]Bicep[/] Will Thank You!"
       - !MarkupBlock
         Justification: Right
         Padding:
           Horizontal: 16
-          Vertical: 4
-        LayoutRatio: 1
+          Vertical: 1
+        LayoutRatio: 2
         Content: |
-          by Kevin Cefalu
+          Kevin Cefalu
           DevOps Engineer III, Netchex
           kevin.cefalu@outlook.com
           Github: kevinCefalu
@@ -58,7 +58,7 @@ Slides:
           Vertical: 8
         LayoutRatio: 1
 
-  - Title: Demos!
+  - Title: Demo Time!
     Content:
       - !FigletBlock
         Justification: Center
@@ -67,25 +67,3 @@ Slides:
           Horizontal: 16
           Vertical: 8
         LayoutRatio: 1
-
-  - Title: Questions?
-    Content:
-      - !FigletBlock
-        Justification: Center
-        Color: Green
-        Padding:
-          Horizontal: 16
-          Vertical: 8
-        LayoutRatio: 1
-      - !MarkupBlock
-        Justification: Right
-        Padding:
-          Horizontal: 16
-          Vertical: 4
-        LayoutRatio: 1
-        Content: |
-          Kevin Cefalu
-          DevOps Engineer III, Netchex
-          kevin.cefalu@outlook.com
-          Github: kevinCefalu
-          Discord: PsiBit#5498
