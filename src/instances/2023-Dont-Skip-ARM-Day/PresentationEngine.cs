@@ -53,8 +53,8 @@ namespace DevOpsSprint.Presentation
         {
             SlideProgressSettings config = Config.GlobalPresentationSettings.SlideProgress;
 
-            string barChartLabel = "[green]Left Arrow[/]: Previous" +
-                "\n[green]Right Arrow[/]: Next" +
+            string barChartLabel = "[green]Left[/]: Previous" +
+                "\n[green]Right[/]: Next" +
                 "\n[green]Escape[/]: End" +
                 $"\n\n[green]{config.Label}[/]";
 
