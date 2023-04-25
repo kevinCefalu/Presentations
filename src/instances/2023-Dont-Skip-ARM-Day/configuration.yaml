@@ -58,6 +58,16 @@ Slides:
           Vertical: 8
         LayoutRatio: 1
 
+  - Title: Demos!
+    Content:
+      - !FigletBlock
+        Justification: Center
+        Color: Green
+        Padding:
+          Horizontal: 16
+          Vertical: 8
+        LayoutRatio: 1
+
   - Title: Questions?
     Content:
       - !FigletBlock
